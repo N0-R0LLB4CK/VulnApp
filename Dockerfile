@@ -40,6 +40,6 @@ RUN useradd -m maintenance && \
 
 # Set permissions for the app directory
 RUN chmod -R 755 /app && \
-    chmod 644 /app/vuln.db
+    chmod 644 /app/database.db
 
 CMD ["bash", "init.sh"]
