@@ -89,9 +89,7 @@ def dashboard():
     
     return render_template("dashboard.html", user=user, message=message, email=email)
 
-
-
-@app.route("/logout")
+@app.route("/logout", methods=["POST"])
 def logout():
     session.pop("user", None)
     return redirect("/")

@@ -132,8 +132,11 @@
         {% endif %}
 
         {% if user %}
-        <a href="/logout">Logout</a>
+        <form action="/logout" method="POST">
+            <button type="submit">Logout</button>
+        </form>
         {% endif %}
+
 
         {% if user %}
         <button class="recovery-button" onclick="sendRecoveryEmail()">Recovery</button>
