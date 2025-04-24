@@ -12,6 +12,8 @@ Click on the recovery page where it gives you the email
 On dashboard there's an upload field -> upload rockyou.txt to break md5 hash
 
 After getting the email:
+backdoor in pdf
+vulnerable pdf viewer
 Phissing email -> access to emails
 
 IN EMAILS:
